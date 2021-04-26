@@ -7,8 +7,14 @@ export const SearchBar: FC<SearchBarProps> = ({
     type,
     currentValue,
     placeHolderText,
-    onStartType
+    onStartType,
+    startSearch
 }: SearchBarProps) => {
+
+    const enterClicked = (currentKey: React.KeyboardEvent<HTMLInputElement>) => {
+        return currentKey.key === 'Enter'
+    };
+
     return (
         <div className={Styles.searchBarWrapper}>
             <input 
@@ -16,6 +22,7 @@ export const SearchBar: FC<SearchBarProps> = ({
                 placeholder={placeHolderText}
                 value={currentValue}
                 onChange={(e) => onStartType(e.target.value)}
+                onKeyDown={(key) => enterClicked(key) && startSearch()}
             />
         </div>
     )

@@ -2,183 +2,49 @@ export const errorMessage = 'Could not find this youtube channel! Make sure the 
 
 export const fakeYoutubeData = JSON.stringify(
   {
-    "kind": "youtube#searchListResponse",
-    "etag": "6vCPXI4GXhSlwOclKa14iAIU_9M",
-    "nextPageToken": "CAUQAA",
-    "regionCode": "DK",
+    "kind": "youtube#channelListResponse",
+    "etag": "cwLvjKIA3Vtz535wiBu42-T0w9E",
     "pageInfo": {
-      "totalResults": 4902,
+      "totalResults": 1,
       "resultsPerPage": 5
     },
     "items": [
       {
-        "kind": "youtube#searchResult",
-        "etag": "whGPFV9n51FHFRAk0nIngrfgLGM",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "UAlIq7BKNxg"
-        },
+        "kind": "youtube#channel",
+        "etag": "xkUkGE1T-Ad-hAb82HS9mJpH6zg",
+        "id": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
         "snippet": {
-          "publishedAt": "2019-10-23T17:20:14Z",
-          "channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-          "title": "Mine All Day (Minecraft Music Video)",
-          "description": "Spotify/Itunes: http://smarturl.it/mineallday Music by: Party In Backyard https://www.youtube.com/partyinbackyard Lyrics by: David Paul Brown (boyinaband): ...",
+          "title": "PewDiePie",
+          "description": "I make videos.",
+          "publishedAt": "2010-04-29T10:54:00Z",
           "thumbnails": {
             "default": {
-              "url": "https://i.ytimg.com/vi/UAlIq7BKNxg/default.jpg",
-              "width": 120,
-              "height": 90
+              "url": "https://yt3.ggpht.com/ytc/AAUvwnga3eXKkQgGU-3j1_jccZ0K9m6MbjepV0ksd7eBEw=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
             },
             "medium": {
-              "url": "https://i.ytimg.com/vi/UAlIq7BKNxg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
+              "url": "https://yt3.ggpht.com/ytc/AAUvwnga3eXKkQgGU-3j1_jccZ0K9m6MbjepV0ksd7eBEw=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
             },
             "high": {
-              "url": "https://i.ytimg.com/vi/UAlIq7BKNxg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
+              "url": "https://yt3.ggpht.com/ytc/AAUvwnga3eXKkQgGU-3j1_jccZ0K9m6MbjepV0ksd7eBEw=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
             }
           },
-          "channelTitle": "PewDiePie",
-          "liveBroadcastContent": "none",
-          "publishTime": "2019-10-23T17:20:14Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "PPpryG-JLtwJwxfLtaAv6R1m-8w",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "Vk8UEWHYfEg"
+          "localized": {
+            "title": "PewDiePie",
+            "description": "I make videos."
+          },
+          "country": "US"
         },
-        "snippet": {
-          "publishedAt": "2018-01-27T18:58:58Z",
-          "channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-          "title": "PewDiePie   Hej Monika Remix by Party In Backyard",
-          "description": "SUB TO PARTY IN BACKYARD: https://www.youtube.com/channel/UCIaIVpEocfuQ9fhBT1rsKrQ NEW MERCH: ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Vk8UEWHYfEg/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Vk8UEWHYfEg/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Vk8UEWHYfEg/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "PewDiePie",
-          "liveBroadcastContent": "none",
-          "publishTime": "2018-01-27T18:58:58Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "bcAjRClDs6YagBcxPgb7mAUr4FY",
-        "id": {
-          "kind": "youtube#playlist",
-          "playlistId": "PLYH8WvNV1YElSlBP0ohchkYTByQ-xD92v"
-        },
-        "snippet": {
-          "publishedAt": "2020-03-21T09:54:06Z",
-          "channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-          "title": "Subnautica",
-          "description": "Full playthrough of Subnautica.",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/WS54qL3GeaI/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/WS54qL3GeaI/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/WS54qL3GeaI/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "PewDiePie",
-          "liveBroadcastContent": "none",
-          "publishTime": "2020-03-21T09:54:06Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "sBN3YP5jcGv5JyZ4zeAosm8wMcU",
-        "id": {
-          "kind": "youtube#playlist",
-          "playlistId": "PLYH8WvNV1YEmenXqX50aYo6HNf2riA4rC"
-        },
-        "snippet": {
-          "publishedAt": "2013-11-27T17:10:13Z",
-          "channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-          "title": "Dark Souls",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Y6mO4n_A6Dc/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Y6mO4n_A6Dc/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Y6mO4n_A6Dc/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "PewDiePie",
-          "liveBroadcastContent": "none",
-          "publishTime": "2013-11-27T17:10:13Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "pBJI8SB6LcpFbDiXr_pv6-crsO0",
-        "id": {
-          "kind": "youtube#playlist",
-          "playlistId": "PLYH8WvNV1YEmL5mviAZ_jxS76yB5-WDh2"
-        },
-        "snippet": {
-          "publishedAt": "2016-02-05T19:48:02Z",
-          "channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
-          "title": "SCARE PEWDIEPIE",
-          "description": "Watch me, PewDiePie, get put in real life games that take horror games to the next level. Will I make it out alive? I don't know. But don't you worry. I'm doing this ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/0-fyoq4454U/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/0-fyoq4454U/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/0-fyoq4454U/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "PewDiePie",
-          "liveBroadcastContent": "none",
-          "publishTime": "2016-02-05T19:48:02Z"
+        "statistics": {
+          "viewCount": "27191715613",
+          "subscriberCount": "109000000",
+          "hiddenSubscriberCount": false,
+          "videoCount": "4314"
         }
       }
     ]
